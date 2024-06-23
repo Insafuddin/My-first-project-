@@ -33,9 +33,26 @@ text-decoration tinkers:......
 uppercase
 lowercase
 capitalize
-
 box shadows
 
+#body{ margin 0;
+          }
+
+#Radial Gradient background
+ linear-gradient
+
+
+#Background
+background-repeat: no-repeat
+background-position
+background-size
+
+#background-blend mode 
+multiply
+lighten
+darken
+
+#background-attachment
 
 
 
@@ -50,6 +67,13 @@ box shadows
 .My_img { width: 200px; 
           height:  200px;
           border-radius: 50px; 
+          transition: 2s;
+}
+.My_img:hover
+  {box-shadow: 0px 0px 15px rgb(227, 18, 18);  
+    transition:.2s;
+    transform: scale(1.1);
+
 }
 .title1 {color: rgb(242, 242, 247);
    
@@ -68,7 +92,7 @@ box shadows
             padding: 10px;
             background-color: rgb(21, 6, 6);
             color: rgb(242, 242, 247);
-            
+            text-shadow: 2px 2px 1px  rgba(0, 0, 0, 0.095);
          
 
    }
@@ -104,14 +128,69 @@ box shadows
                  padding-top: 3px;
 
      }
-     .button1 {   padding-top: 5px; 
+     .button1 {   
+               padding-top: 5px; 
                 
+     }
+     .button1:hover{    
+        transition:.5s;
+        transform: scale(1.1);
 
-
+                             
      }
 
      .ccome {
-         font-size: 50px;
-         width:200px ;
-     }
-           
+        display: auto;
+         font-size:50px;
+         width:150px ;
+         height: 70px;
+         background-color: aqua;
+         border-radius: 10px;
+         border: 2px solid chocolate;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         padding-top: 10px;
+         box-shadow: 10px 15px 15px;
+         transition: .5s linear;
+ }
+     .ccome:hover{ box-shadow: 10px 15px 15px rgb(227, 18, 18);  
+                   transition:.5s;
+                   transform: scale(1.1);
+
+    }
+
+     
+ 
+     .ccome2 { justify-content: center;
+               height: 100px;
+               width:  250px;
+               justify-content: center;
+               align-items: center;
+               border-radius: 45px;
+               border: 2px solid rgb(0, 0, 0); 
+               background: radial-gradient(rgb(13, 11, 11), rgb(124, 167, 7), rgb(0, 255, 191));
+            }
+     .ccome2:hover{   box-shadow: 10px 10px 10px chartreuse ;
+                      transition:.5s;
+                      transform: scale(1.1);
+                      border-radius: 20px;  
+                }               
+       .ccome2:visited{ 
+                        box-shadow: 10px 10px 10px rgb(200, 26, 26)}
+    
+            
+
+    .heroMain {  height: 100%;
+                 width: 100%;
+                 background-repeat: no-repeat;
+                 background-image: url(hero.png); 
+                 background-position: center center;
+                 background-size: cover;
+
+                
+                }
+    .heroMain content {}
+    .heroMain  .content .herotitle {}
+    .heroMain  .content .herotitle .herosubtitle{}
+    .heroMain  .content {}
